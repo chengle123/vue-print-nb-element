@@ -212,7 +212,7 @@ export default class {
       colgroup[i].style.display = 'none'
     }
     var header = parent.getElementsByClassName("el-table__header");
-    var body = parent.getElementsByClassName("el-el-table__body");
+    var body = parent.getElementsByClassName("el-table__body");
     for(var j = 0;j<header.length;j++){
       header[j].style.width = '100%'
       body[j].style.width = '100%'

@@ -1,6 +1,6 @@
 {
   "name": "vue-print-nb-element",
-  "version": "1.7.5",
+  "version": "1.7.9",
   "description": "修改了element打印不全问题",
   "main": "lib/print.umd.min.js",
   "author": "Power-kxLee",
