@@ -213,9 +213,9 @@ export default class {
     }
     var header = parent.getElementsByClassName("el-table__header");
     var body = parent.getElementsByClassName("el-el-table__body");
-    for(var i = 0;i<header.length;i++){
-      header[i].style.width = '100%'
-      body[i].style.width = '100%'
+    for(var j = 0;j<header.length;j++){
+      header[j].style.width = '100%'
+      body[j].style.width = '100%'
     }
     
     this.elsdom = this.beforeHanler(document.getElementById(ids));
